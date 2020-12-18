@@ -1,6 +1,6 @@
 # OSWG Title
 
-- **OSWG Number:** [To be assigned (=number of the initial PR to the PSPs repo)]
+- **OSWG Number:** [To be assigned (=number of the initial PR or the running number of SOWG's)]
 - **Champion:** [Name and Email or GitHub Username]
 - **Status:** [Draft, Activation, Maintain, Closed]
 - **Created:** [yyyy-mm-dd]
