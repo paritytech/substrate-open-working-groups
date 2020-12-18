@@ -1,6 +1,6 @@
-# Polkadot Token Standard
+# OSWG Title
 
-- **OSWG Number:** 1
+- **OSWG Number:** [To be assigned (=number of the initial PR to the PSPs repo)]
 - **Champion:** [Name and Email or GitHub Username]
 - **Status:** [Draft, Activation, Maintain, Closed]
 - **Created:** [yyyy-mm-dd]
