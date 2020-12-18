@@ -20,4 +20,4 @@ particular decisions were made.
 ## Setup
 
 The definition how the working group collectivly works together in the sense of sessions, meetings, related documents or anything that is relevant to the working group.
-* [OSWG Channel on Riot](https://app.element.io/app)
+* [OSWG Channel on Element](https://app.element.io/app)
