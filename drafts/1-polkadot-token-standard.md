@@ -1,6 +1,6 @@
-# OSWG Title
+# Polkadot Token Standard
 
-- **OSWG Number:** [To be assigned (=number of the initial PR or the running number of SOWG's)]
+- **OSWG Number:** 1
 - **Champion:** [Name and Email or GitHub Username]
 - **Status:** [Draft, Activation, Maintain, Closed]
 - **Created:** [yyyy-mm-dd]
