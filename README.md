@@ -38,4 +38,4 @@ Before you start writing a proposal for a new OSWG, you should discuss an idea i
 
 ## :bulb: Help
 
-* [PSP Channel on Riot](https://app.element.io/app)
+* [OSWG Channel on Riot](https://app.element.io/app)
