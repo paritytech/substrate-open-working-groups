@@ -33,7 +33,7 @@ Before you start writing a proposal for a new OSWG, you should discuss an idea i
 2. In the newly created fork, create a copy of the [Draft Template](./drafts/sowg-template.md).
 3. Fill out the [Draft Template](./drafts/sowg-template.md) with the details of your OSWG and move it to the [root folder](./) folder. If your OSWG requires images, the images should be integrated in the subdirectory of the [src folder](/src/), which has your OSWG number as the name.
 4. Once you have completed the application, click on "create new pull request".
-5. Rename the file with "number_of_your_pr-oswg-name.md".
+5. Rename the file with "number_of_oswg-oswg_name.md".
 6. Update the pull request. 
 
 ## :bulb: Help
