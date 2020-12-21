@@ -1,13 +1,13 @@
 # Polkadot Token Standard
 
 - **OSWG Number:** 1
-- **Champion:** [Name and Email or GitHub Username]
+- **Champion:** [@pserg1, @Veniamin]
 - **Status:** Draft
 - **Created:** 2020-12-21
 - **Contributors**
-    - Peter, peter.s@equilibrium.io, Equilibrium
-    - Ben, benjamin@equilibrium.io, Equilibrium
-
+    - Bryan, bryan@acala.network, Acala
+    - Jakub, (N/A), HydraDX  
+    - Nate, (N/A), Moonbeam    
 
 ## Summary
 
