@@ -24,7 +24,7 @@ Currently there are many polkadot-based projects using either standard balances 
 ## Setup
 
 The definition how the working group collectivly works together in the sense of sessions, meetings, related documents or anything that is relevant to the working group.
-* [OSWG Channel on Element](https://app.element.io/app)
+* [Polkadot Token Standard](https://matrix.to/#/!UGygryNZqUDiaXhbIh:web3.foundation?via=web3.foundation&via=matrix.org&via=matrix.parity.io)
 
 ## Findings
 
