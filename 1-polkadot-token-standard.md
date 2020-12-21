@@ -5,13 +5,21 @@
 - **Status:** Draft
 - **Created:** 2020-12-21
 - **Contributors**
-    - Bryan, bryan@acala.network, Acala
+    - Bryan, @xlc, Acala
     - Jakub, (N/A), HydraDX  
     - Nate, (N/A), Moonbeam    
 
 ## Summary
 
 To falicitate creation of ecosystem-wide standard for asset/token storage, generation and management. 
+
+## References
+
+- https://github.com/w3f/PSPs/blob/master/PSPs/drafts/psp-3.md
+- https://github.com/paritytech/xcm-format
+- https://eips.ethereum.org/EIPS/eip-20
+- https://github.com/cosmos/ics/tree/master/spec/ics-020-fungible-token-transfer
+- https://github.com/cosmos/ics/tree/master/spec/ics-027-interchain-accounts
 
 ## Motivation
 
@@ -44,21 +52,17 @@ The table below shows the information on projects who shared their specifics/req
 
 To tackle the Integration, Unified assets and User-generated assets issues outlined in the previous section, we propose the following:
 
-
 1. Each project’s substrate storage should have its own asset registry. We propose to have it as a separate module so the proxy and rpc may be added easily there.
 2. Assets/tokens should have a unique identifier which will be an asset symbol initially. With the introduction of XCMP the identifier will change to symbol + multilocation or a combination of multiasset/multilocation.
 3. RPC methods:
-
-* getAsset(symbol) - returns asset/token information (symbol, name, decimals, token supply, multilocation). 
-* getAssets - return the list of all assets from the registry. 
-* getBalance(accountId) - returns array of balances (symbol, balance) for given accountID
-
+* `getAsset(symbol)` - returns asset/token information (symbol, name, decimals, token supply, multilocation). 
+* `getAssets()` - return the list of all assets from the registry. 
+* `getBalance(accountId)` - returns array of balances (symbol, balance) for given accountID
 4. Extrinsics:
- 
-- registerAsset (symbol, name, decimals, token supply, multilocation) - registers user-specified asset/token on a substrate of choice. There may be projects with a static asset list, where the addition of a new asset requires a runtime update, and there may be projects with a dynamic asset list where introduction of the registerAsset method looks feasible. 
+- `registerAsset (symbol, name, decimals, token supply, multilocation)` - registers user-specified asset/token on a substrate of choice. There may be projects with a static asset list, where the addition of a new asset requires a runtime update, and there may be projects with a dynamic asset list where introduction of the registerAsset method looks feasible. 
+- `transfer (symbol, to, quantity)` - transfer an asset. For backward compatibility with existing polkadot-based projects who use standard balances pallet the symbol parameter should be omitted in the transfer method. This way polkadot will avoid updating the runtime while still supporting the standard by adding corresponding RPC. 
+5. Separate Proxy pallet for those projects who have more than 1 assets module (e.g. Acala, Moonbeam). Which will handle the transition logic between “generic” assets and, for example, ERC-20 tokens within the ethereum pallet. Or add a transfer method to existing balances pallet with such logic/API.
 
-- transfer (symbol, to, quantity) - transfer an asset. For backward compatibility with existing polkadot-based projects who use standard balances pallet the symbol parameter should be omitted in the transfer method. This way polkadot will avoid updating the runtime while still supporting the standard by adding corresponding RPC. 
+## Reference Implementations
 
-
-5. Separate Proxy pallet for those projects who have more than 1 assets module (e.g. Acala, Moonbeam). Which will handle the transition logic between “generic” assets and, for example, ERC-20 tokens within the ethereum pallet. Or add a transfer method  to existing balances pallet with such logic/API.
-
+[To be created]
