@@ -39,4 +39,4 @@ Before you start writing a proposal for a new SOWG, you should discuss an idea i
 
 ## :bulb: Help
 
-* [SOWG Channel on Riot](https://app.element.io/app)
+* [Substrate Technical](https://matrix.to/#/!HzySYSaIhtyWrwiwEV:matrix.org?via=matrix.parity.io&via=matrix.org&via=corepaper.org)
