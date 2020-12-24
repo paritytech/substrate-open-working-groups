@@ -3,7 +3,7 @@
 # Substrate Open Working Groups (SOWGs)
 
 
-The Susbstrate Open Working Groups (SOWG) are community-based mechanisms to develop standards, specifications, implementations, guidlines or general initiatives in regards to the [Substrate framework](https://github.com/paritytech/substrate).
+The Susbstrate Open Working Groups (SOWG) are community-based mechanisms to develop standards, specifications, implementations, guidelines or general initiatives in regards to the [Substrate framework](https://github.com/paritytech/substrate).
 It could, but not restricted to, lead to new [Polkadot Standards Proposals](https://github.com/w3f/PSPs).
 SOWG is meant as a place to find and track ongoing efforts and enable everybody with similar interests to join and contribute.
 
