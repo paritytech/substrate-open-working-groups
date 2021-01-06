@@ -47,6 +47,7 @@ The table below shows the information on projects who shared their specifics/req
 |Moonbeam|Yes|accounts are created in ethereum keypair format (H160 instead of H256) directly in polkadot.js there is separate transact extrinsic inside the ethereum pallet|u128|system.account(AccountId): AccountInfo|balances.transfer(dest.value)|
 |Plasm|Yes|no specific requirements, looking for XCM|u128|balances.account(AccountId): AccountData|balances.transfer(dest.value)|
 |Snowfork|No|[assets](https://polkaeth-rustdocs.netlify.app/artemis_asset/index.html); Support for multiple fungible currencies/assets; the ability to identify a currency by a 20-byte identifier (for supporting bridged ERC20 tokens); The ability to store account balances using 256-bit precision|u256|N/A|N/A|
+|Phala Network|Yes|Multi-chain currencies identity support, currently use encode<paraId + currencyId>|u128|system.account(AccountId): AccountInfo|balances.transfer(dest.value)|
 
 ## Proposition
 
