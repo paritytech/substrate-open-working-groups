@@ -9,19 +9,19 @@ SOWG is meant as a place to find and track ongoing efforts and enable everybody 
 
 ---
 
-- [:bookmark_tabs: Ressources](#bookmark_tabs-ressources)
+- [:bookmark_tabs: Resources](#bookmark_tabs-resources)
 - [:clipboard: Process](#clipboard-process)
 - [:pencil: Contributing](#pencil-contributing)
 - [:bulb: Help](#bulb-help)
 
-## :bookmark_tabs: Ressources
+## :bookmark_tabs: Resources
 
 - [SOWG Drafts](./drafts)
   - [Draft Template](./drafts/sowg-template.md)
 - [Active SOWG's](./SOWG)
-  - 1. [Polkadot Token Standard Document](./SOWG/1-polkadot-token-standard.md)
-  - 1. [Polkadot Token Standard Discussion](https://github.com/paritytech/substrate-open-working-groups/discussions/8)
-  - 2. [Identity Standard Discussion](https://github.com/paritytech/substrate-open-working-groups/discussions/2)
+  1. [Polkadot Token Standard Document](./SOWG/1-polkadot-token-standard.md)
+      - [Discussion](https://github.com/paritytech/substrate-open-working-groups/discussions/8)
+  2. [Identity Standard Discussion](https://github.com/paritytech/substrate-open-working-groups/discussions/2)
 - [Closed SOWG's](./closed)
 - [Archive SOWG's](./archive)
     - [SOWG Archive](./archive/sowg-archive.md)
