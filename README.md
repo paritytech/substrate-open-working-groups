@@ -16,11 +16,12 @@ SOWG is meant as a place to find and track ongoing efforts and enable everybody 
 
 ## :bookmark_tabs: Ressources
 
-- [Draft Template](./drafts/sowg-template.md)
-- [Active SOWG's](./SOWG/)
+- [SOWG Drafts](./drafts)
+  - [Draft Template](./drafts/sowg-template.md)
+- [Active SOWG's](./SOWG)
   - [Polkadot Token Standard](./SOWG/1-polkadot-token-standard.md)
-- [Closed SOWG's](./closed/)
-- [Archive SOWG's](./archive/)
+- [Closed SOWG's](./closed)
+- [Archive SOWG's](./archive)
     - [SOWG Archive](./archive/sowg-archive.md)
 
 ## :clipboard: Process  
