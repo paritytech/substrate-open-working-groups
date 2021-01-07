@@ -9,9 +9,20 @@ SOWG is meant as a place to find and track ongoing efforts and enable everybody 
 
 ---
 
+- [:bookmark_tabs: Ressources](#bookmark_tabs-ressources)
 - [:clipboard: Process](#clipboard-process)
 - [:pencil: Contributing](#pencil-contributing)
 - [:bulb: Help](#bulb-help)
+
+## :bookmark_tabs: Ressources
+
+- [SOWG Drafts](./drafts)
+  - [Draft Template](./drafts/sowg-template.md)
+- [Active SOWG's](./SOWG)
+  - [Polkadot Token Standard](./SOWG/1-polkadot-token-standard.md)
+- [Closed SOWG's](./closed)
+- [Archive SOWG's](./archive)
+    - [SOWG Archive](./archive/sowg-archive.md)
 
 ## :clipboard: Process  
 
@@ -24,7 +35,7 @@ Below is the workflow of the successful establishment of a new SOWG:
 4. **Maintain:** The SOWG is actively maintained by the champion and it's contributers, in the sense of regular discussions, meetings, output.
 4. **Closed:** The SOWG gets closed after inactivity for more than one quarter or successful contribution to the [Polkadot Standards Proposals](https://github.com/w3f/PSPs), therefore the SOWG document will get moved into the [archive folder](/archive/).
 
-In order to be **merged** for the different SOWG proposals, reviewers need to approve a PR. Reviewers should be known experts in the topic covered by the community. 
+In order to be **merged** for the different SOWG proposals, reviewers need to approve a PR. Reviewers should be known experts in the topic covered by the community.
 
 ## :pencil: Contributing
 
