@@ -9,7 +9,7 @@ SOWG is meant as a place to find and track ongoing efforts and enable everybody 
 
 ---
 
-- [:bookmark_tabs: Process](#bookmark_tabs-ressources)
+- [:bookmark_tabs: Ressources](#bookmark_tabs-ressources)
 - [:clipboard: Process](#clipboard-process)
 - [:pencil: Contributing](#pencil-contributing)
 - [:bulb: Help](#bulb-help)
