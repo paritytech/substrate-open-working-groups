@@ -308,12 +308,6 @@ This section specifies measurable features that the NFT migration protocol must 
    </td>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td><strong>                                                            ●</strong>
-   </td>
-  </tr>
-  <tr>
    <td><strong>Feature 2</strong>
    </td>
    <td>As long as the token is in escrow, it cannot be transferred to anyone else in the origin universe.
@@ -326,12 +320,6 @@ This section specifies measurable features that the NFT migration protocol must 
    </td>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td><strong>                                                            ●</strong>
-   </td>
-  </tr>
-  <tr>
    <td><strong>Feature 3</strong>
    </td>
    <td>The destination bridge could be made to receive an NFT from any ERC-721 origin universe with a bridge. This allows for complex IOU/Full migration token behaviour. The bridge is just a recordkeeper of the migration.
@@ -341,12 +329,6 @@ This section specifies measurable features that the NFT migration protocol must 
    <td><strong>Test 3</strong>
    </td>
    <td>The bridge can associate an arbitrary ERC-721 token it is the owner of (but that was not put in escrow) with incoming migrations data. This migration data is then stored in the bridge and readable.
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td><strong>                                                            ●</strong>
    </td>
   </tr>
   <tr>
@@ -408,12 +390,6 @@ This section specifies measurable features that the NFT migration protocol must 
    </td>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td><strong>                                                            ●</strong>
-   </td>
-  </tr>
-  <tr>
    <td><strong>Feature 7</strong>
    </td>
    <td>Perform a Full migration, which requires Digital Rights Management at the bridge level. When such Full Migrations are happening, callback hooks can be set up by NFT creators and publishers so that they can execute in-universe relevant code.
@@ -423,12 +399,6 @@ This section specifies measurable features that the NFT migration protocol must 
    <td><strong>Test 7</strong>
    </td>
    <td>An NFT can be migrated from t<sub>1</sub> to t<sub>2</sub>, with t<sub>2</sub> becoming the representative token of the NFT.
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td><strong>                                                            ●</strong>
    </td>
   </tr>
   <tr>
@@ -581,7 +551,7 @@ A chain that is writing NFT migration data in the relay chain in Kusama should b
 # 6. Assumptions and Migration Model
 
 
-### **6.1 The Game Theory Behind Bridges ** \
+### 6.1 The Game Theory Behind Bridges
 
 
 
@@ -638,7 +608,7 @@ A chain that is writing NFT migration data in the relay chain in Kusama should b
 
 
 
-### **6.2 Migration Model **
+### 6.2 Migration Model
 
 Based on the assumptions above, we propose the following model for the NFT migration protocol:
 
@@ -802,13 +772,13 @@ Ultimately, it is up to token creators to carefully select their relays.
 
 **User Experience**
 
-Total calls :  \
+Total calls : 
 Original owner need to 
 
 -Transact the setup of his token migration &lt;= gas spent, can be done by operator
 
--Transact the transfer of the token &lt;= gas spent, can be done by operator \
- \
+-Transact the transfer of the token &lt;= gas spent, can be done by operator
+
 - Sign proofEscrowHash 
 
 - Sign migrationRelayedHash
@@ -817,17 +787,17 @@ Relay needs to :
 
 -Call migrateFrom
 
-Anyone can :  \
+Anyone can : 
 Call finalizeMigration
 
 Someone needs to : 
 
 Put the destination token in the bridge (could be done by default by the IOU smart contract itself, allowing the bridge to mint tokens at will)
 
- \
- \
+
+
 So all in all, assuming fully subsidized migration, an owner needs to : \
- \
+
 -Do ONE transaction that designate an operator on the origin universe
 
 -Click sign twice with his origin universe wallet
