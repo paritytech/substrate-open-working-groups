@@ -50,6 +50,7 @@ The table below shows the information on projects who shared their specifics/req
 |Phala Network|Yes|Multi-chain currencies identity support, currently use encode<paraId + currencyId>|u128|system.account(AccountId): AccountInfo|balances.transfer(dest.value)|
 |SORA|No|standard balances for native tokens; orml for non-native tokens; additional assets layer for access unification, token details (symbol, decimals) and ownership management; support for burn/mint/limiting supply; 32-byte identifier for all asset types|u128|assets.freeBalance(account_id, asset_id)|assets.transfer(asset_id, to, amount)|
 |Darwinia|Yes|standard balances for native tokens; ERC-20 tokens for EVM; multi-chain assets identity support;|u64|system.account(AccountId): AccountInfo|balances.transfer(dest.value)|
+|Edgeware|Yes|Support multiple assets/tokens (orml-tokens); support issue / burn|u128|system.account(AccountId): AccountInfo|balances.transfer(dest.value)|
 
 ## Proposition
 
